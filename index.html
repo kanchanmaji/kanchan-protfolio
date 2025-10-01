@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanchan Maji - Python & Backend Developer</title>
+    <meta name="description" content="Python & Backend Developer specializing in Django, Flask, and database optimization. 5+ years experience in web development and system architecture.">
+    <meta name="keywords" content="Python, Backend Developer, Django, Flask, Database, PostgreSQL, MySQL, Web Development">
+    <meta name="author" content="Kanchan Maji">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Dev Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <!-- DevIcons CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <!-- Google Fonts for coding fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Back to top button -->
+    <button id="back-to-top" class="back-to-top hidden" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+    
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#hero">&lt;Kanchan Maji/&gt;</a>
+            </div>
+            
+            <div class="nav-menu" id="nav-menu">
+                <a href="#hero" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#social" class="nav-link">Social</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                
+                <div class="nav-dropdown" hidden>
+                    <button class="nav-dropdown-btn">Legal <i class="fas fa-chevron-down"></i></button>
+                    <div class="nav-dropdown-content">
+                        <a href="#terms" target="_blank">Terms of Service</a>
+                        <a href="#privacy" target="_blank">Privacy Policy</a>
+                        <a href="#refund" target="_blank">Refund Policy</a>
+                        <a href="#license" target="_blank">License</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="nav-hamburger" id="nav-hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Hi, I'm <span class="highlight">Kanchan Maji</span></h1>
+                    <p class="hero-subtitle">
+                        <span class="typing-text" id="typing-text"></span>
+                        <span class="typing-cursor">|</span>
+                    </p>
+                    <p class="hero-description">
+                        Passionate Python backend developer with 2+ years of experience building scalable web applications and APIs.
+                        Specialized in Django, Flask, and database optimization.
+                    </p>
+                </div>
+                <div class="hero-buttons">
+                    <a href="resume.pdf" class="btn btn--primary" download>
+                        <i class="fas fa-download"></i>
+                        Download Resume
+                    </a>
+                    <a href="#contact" class="btn btn--outline">
+                        <i class="fas fa-envelope"></i>
+                        Hire Me
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <a href="#about" aria-label="Scroll to about section">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+    
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About <span class="highlight">Me</span></h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="about-info">
+                        <h3>Backend Development Specialist</h3>
+                        <p>
+                            Passionate Python backend developer with 5+ years of experience building scalable web applications and APIs.
+                            Specialized in Django, Flask, and database optimization. Currently focused on cloud architecture and microservices development.
+                        </p>
+                        <div class="about-stats">
+                            <div class="stat">
+                                <div class="stat-icon">
+                                    <i class="fas fa-code"></i>
+                                </div>
+                                <div class="stat-content">
+                                    <h4>2+ Years</h4>
+                                    <p>Experience</p>
+                                </div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat-icon">
+                                    <i class="fas fa-graduation-cap"></i>
+                                </div>
+                                <div class="stat-content">
+                                    <h4>Computer Science</h4>
+                                    <p>Student</p>
+                                </div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat-icon">
+                                    <i class="fas fa-server"></i>
+                                </div>
+                                <div class="stat-content">
+                                    <h4>Backend & AI/Ml</h4>
+                                    <p>Focus Area</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="profile-placeholder">
+                        <img src="logo.jpg" alt="Profile Logo" class="profile-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical <span class="highlight">Skills</span></h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Backend Development</h3>
+                    <div class="skills-list">
+                        <div class="skill-item" data-skill="Python" data-level="90">
+                            <div class="skill-icon">
+                                <i class="devicon-python-plain"></i>
+                            </div>
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="Django" data-level="85">
+                            <div class="skill-icon">
+                                <i class="devicon-django-plain"></i>
+                            </div>
+                            <span class="skill-name">Django</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="Flask" data-level="80">
+                            <div class="skill-icon">
+                                <i class="devicon-flask-original"></i>
+                            </div>
+                            <span class="skill-name">Flask</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="FastAPI" data-level="75">
+                            <div class="skill-icon">
+                                <i class="devicon-fastapi-plain"></i>
+                            </div>
+                            <span class="skill-name">FastAPI</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Databases</h3>
+                    <div class="skills-list">
+                        <div class="skill-item" data-skill="PostgreSQL" data-level="85">
+                            <div class="skill-icon">
+                                <i class="devicon-postgresql-plain"></i>
+                            </div>
+                            <span class="skill-name">PostgreSQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="MySQL" data-level="80">
+                            <div class="skill-icon">
+                                <i class="devicon-mysql-plain"></i>
+                            </div>
+                            <span class="skill-name">MySQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="MongoDB" data-level="70">
+                            <div class="skill-icon">
+                                <i class="devicon-mongodb-plain"></i>
+                            </div>
+                            <span class="skill-name">MongoDB</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="70"></div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Tools & DevOps</h3>
+                    <div class="skills-list">
+                        <div class="skill-item" data-skill="Docker" data-level="75">
+                            <div class="skill-icon">
+                                <i class="devicon-docker-plain"></i>
+                            </div>
+                            <span class="skill-name">Docker</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="Git" data-level="90">
+                            <div class="skill-icon">
+                                <i class="devicon-git-plain"></i>
+                            </div>
+                            <span class="skill-name">Git</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="Linux" data-level="80">
+                            <div class="skill-icon">
+                                <i class="devicon-linux-plain"></i>
+                            </div>
+                            <span class="skill-name">Linux</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="AWS" data-level="70">
+                            <div class="skill-icon">
+                                <i class="devicon-amazonwebservices-original"></i>
+                            </div>
+                            <span class="skill-name">AWS</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="70"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skills-list">
+                        <div class="skill-item" data-skill="HTML5" data-level="75">
+                            <div class="skill-icon">
+                                <i class="devicon-html5-plain"></i>
+                            </div>
+                            <span class="skill-name">HTML5</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="CSS3" data-level="70">
+                            <div class="skill-icon">
+                                <i class="devicon-css3-plain"></i>
+                            </div>
+                            <span class="skill-name">CSS3</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="JavaScript" data-level="65">
+                            <div class="skill-icon">
+                                <i class="devicon-javascript-plain"></i>
+                            </div>
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="65"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="React" data-level="60">
+                            <div class="skill-icon">
+                                <i class="devicon-react-original"></i>
+                            </div>
+                            <span class="skill-name">React</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="60"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Social Section -->
+    <section id="social" class="social">
+        <div class="container">
+            <h2 class="section-title">Connect With <span class="highlight">Me</span></h2>
+            <div class="social-grid">
+                <div class="social-card">
+                    <div class="social-icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <h3>GitHub</h3>
+                    <p class="social-followers">2.5K followers</p>
+                    <a href="https://github.com/kanchanmaji" target="_blank" class="social-link">
+                        Visit Profile <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+                <div class="social-card">
+                    <div class="social-icon">
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                    <h3>LinkedIn</h3>
+                    <p class="social-followers">1.8K connections</p>
+                    <a href="https://linkedin.com/in/in/kanchan-maji-40b468347" target="_blank" class="social-link">
+                        Visit Profile <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+                <div class="social-card">
+                    <div class="social-icon">
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                    <h3>Twitter</h3>
+                    <p class="social-followers">892 followers</p>
+                    <a href="https://twitter.com/kanchan_maji_" target="_blank" class="social-link">
+                        Visit Profile <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+                <div class="social-card">
+                    <div class="social-icon">
+                        <i class="devicon-leetcode-plain"></i>
+                    </div>
+                    <h3>Leetcode</h3>
+                    <p class="social-followers">1000+ Solved</p>
+                    <a href="https://leetcode.com/u/kanchanmaji" target="_blank" class="social-link">
+                        Visit Profile <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In <span class="highlight">Touch</span></h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Work Together</h3>
+                    <p>
+                        I'm always interested in new opportunities and collaborations.
+                        Feel free to reach out if you'd like to discuss a project or just say hello!
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>kanchanmaji@zohomail.in</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+91 9279****65</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Jharkhand, India</span>
+                        </div>
+                    </div>
+                    <div class="contact-social">
+                        <a href="https://github.com/kanchanmaji" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com/in/kanchan-maji-40b468347" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://twitter.com/kanchan_maji_" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://stackoverflow.com/users/31546783/kanchan-maji" target="_blank"><i class="fab fa-stack-overflow"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <input type="hidden" name="access_key" value="1ada30d9-966a-42af-966c-d093f688b749">
+                        
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                            <span class="error-message" id="name-error"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                            <span class="error-message" id="email-error"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                            <span class="error-message" id="message-error"></span>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full-width">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                    <div id="form-status" class="form-status hidden"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>&lt;Kanchan Maji/&gt;</h3>
+                    <p>Python & Backend Developer</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <div class="footer-nav">
+                        <a href="#hero">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#skills">Skills</a>
+                        <a href="#social">Social</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
+                <div class="footer-legal">
+                    <h4>Legal</h4>
+                    <div class="legal-links">
+                        <a href="../legal/terms.html">Terms of Service</a>
+                        <a href="../legal/privacy.html">Privacy Policy</a>
+                        <a href="../legal/refund.html">Refund Policy</a>
+                        <a href="../legal/license.html">License</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Kanchan Maji. All rights reserved.</p>
+                
+            </div>
+        </div>
+    </footer>
+    
+    <script src="js/main.js"></script>
+</body>
+
+</html>
